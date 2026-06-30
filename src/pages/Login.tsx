@@ -1,4 +1,4 @@
-import Card from "@components/ui/Card/Card";
+import Card from "@components/card/Card";
 import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
