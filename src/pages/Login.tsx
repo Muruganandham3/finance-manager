@@ -2,6 +2,7 @@ import Card from "@components/ui/Card/Card";
 import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
+import Button from "@components/button/Button";
 
 
 type LoginForm = {
@@ -46,9 +47,11 @@ const Login = () => {
 
           {loginError && (<p className="text-red-500 text-sm">{loginError}</p>)}
 
-          <button className="bg-blue-600 text-white py-2 rounded-md hover:bg-blue-700 w-30 !p-0.5" type="submit">
+          <Button className="bg-blue-600 text-white py-2 rounded-md hover:bg-blue-700 w-30 !p-0.5" name="Login"></Button>
+
+          {/* <button className="bg-blue-600 text-white py-2 rounded-md hover:bg-blue-700 w-30 !p-0.5" type="submit">
             Login
-          </button>
+          </button> */}
         </form>
       </Card>
     </div>
