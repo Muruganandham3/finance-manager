@@ -1,4 +1,4 @@
-export interface ButtonProps{
+export default interface ButtonProps{
     name:String,
     className?:String
 }

@@ -25,11 +25,11 @@ const Login = () => {
   const { register, handleSubmit, formState: { errors } } = useForm<LoginForm>();
   return (
     <div className="h-screen flex items-center justify-center bg-gray-100">
-      <Card className="w-full max-w-md min-h-[320px] pt-16">
-        <form onSubmit={handleSubmit(onSubmit)} className="flex w-full min-h-[320px] h-full  flex-col gap-6 justify-center items-center">
+      <Card className="w-full max-w-md min-h-80 pt-16">
+        <form onSubmit={handleSubmit(onSubmit)} className="flex w-full min-h-80 h-full  flex-col gap-6 justify-center items-center">
           <div className="w-sm">
           <input
-            className="border border-gray-300 px-3 py-2 rounded-md w-sm !p-0.5  focus:border-blue-600 focus:border-2 focus:outline-none"
+            className="border border-gray-300 px-3 py-2 rounded-md w-sm p-0.5  focus:border-blue-600 focus:border-2 focus:outline-none"
             placeholder="Enter a email"
             {...register("email", { required: "Email is required" })}
           />

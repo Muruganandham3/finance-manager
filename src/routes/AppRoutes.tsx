@@ -3,6 +3,7 @@ import Login from "@pages/Login"
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import AuthLayout from "@layouts/AuthLayout"
 import MainLayout from "@layouts/MainLayout";
+import Transaction from "@pages/Transaction";
 
 
 const AppRoutes = () => {
@@ -15,6 +16,7 @@ const AppRoutes = () => {
 
         <Route element={<MainLayout />}>
             <Route path="/dashboard" element={<Dashboard/>} />
+            <Route path="/transaction" element={<Transaction/>} />
         </Route>
     </Routes>
     </BrowserRouter>

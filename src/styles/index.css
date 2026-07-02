@@ -1,8 +1,10 @@
+@import "tailwindcss";
+
 @import "./reset.css";
 @import "./variables.css";
 @import "./typography.css";
 @import "./theme.css";
-@import "tailwindcss";
+
 
 html {
   font-size: 16px;
