@@ -8,6 +8,7 @@
 
 html {
   font-size: 16px;
+  height: 100%;
 }
 
 body {
@@ -18,9 +19,9 @@ body {
 
   color: var(--text-primary);
 
-  min-height: 100vh;
+  height: 100%;
 
-  overflow-x: hidden;
+  overflow: hidden;
 
 }
 
@@ -39,5 +40,5 @@ button {
 }
 
 #root {
-  min-height: 100vh;
+  height: 100%;
 }
